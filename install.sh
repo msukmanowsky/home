@@ -1,4 +1,8 @@
 ### Install required stuff ####################################################
+
+# Homebrew (assumes ruby installed)
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
 export VIMHOME=~/.vim
 
 mkdir -p $VIMHOME/bundle $VIMHOME/autoload
