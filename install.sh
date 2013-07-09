@@ -3,6 +3,13 @@
 # Homebrew (assumes ruby installed)
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
+
+# Python stuff
+# virtualenv
+pip install virtualenv
+pip install virtualenvwrapper
+
+
 export VIMHOME=~/.vim
 
 mkdir -p $VIMHOME/bundle $VIMHOME/autoload
